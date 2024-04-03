@@ -1,0 +1,17 @@
+Did you attempt to make your computer player smarter than the baseline
+Yes
+
+If so, were you able to accomplish this? Is your computer player as smart as you would like?
+I let the red player go first from the left bottom,  which is close to black checkers, so the red player has more chance to jump and eat black checkers.   My computer player is not as smart as I would like.
+
+How did you determine which piece to play next? Tell us about your “pick next move” algorithm
+I use a for loop from left to right, to check red jump first, go through the leftup,leftdown,rightup,rightdown directions, find the valid jump.
+if no valid jump, then I use another for loop to check single move for red checkers. 
+
+How often did your computer program beat you, or your friends, or whoever tested it out for you?
+My computer program does not often beat me.
+
+How would you improve it in the future?
+I would like to let the red player go through each possible moves in a function, 
+and use search algorithm, calculate the probability of win for each possible moves, 
+then select the move that more likely to be king checker or jump over black checker.
